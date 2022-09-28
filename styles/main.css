@@ -4,24 +4,31 @@ body {
   font-family: "Albert Sans", sans-serif;
   font-weight: 400;
   color: #09090E;
+  font-size: 1rem;
 }
 
 main {
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 5rem;
   padding: 0 0.8rem;
 }
 
 main, header {
   max-width: 1110px;
-  margin: auto;
 }
 
 /* ----------------------------------- Styling navigation */
 header {
-  font-size: 1.2em;
+  font-size: 1.5rem;
+  background-color: #fff;
 
   padding: 1rem 0 1rem 0.8rem;
+
+  /* make navigation header fixed at top */
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-link {
@@ -37,6 +44,8 @@ header {
   text-decoration-line: underline;
   text-decoration-color: #F08A07;
 }
+
+
 
 /* -------------------------------------- Styling headers */
 h1 {
@@ -64,7 +73,7 @@ article h2 {
 /* ------------------------------- Styling paragraph text */
 article p {
   max-width: 750px;
-  line-height: 1.2em;
+  line-height: 1.3em;
 
   padding-bottom: 0.6rem;
 }
@@ -96,11 +105,6 @@ footer {
   border-style: solid;
   border-width: 3px;
   box-shadow: 0.3em 0.3em #09090E;
-}
-
-.text-box {
-  display: block;
-  margin: 0.6rem auto;
 }
 
 /* ------------------------------------- Styling gallery */
