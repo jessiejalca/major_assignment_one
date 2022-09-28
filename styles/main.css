@@ -1,0 +1,114 @@
+/* ------------ Setting the basics for the entire webpage */
+
+body { 
+  font-family: "Albert Sans", sans-serif;
+  font-weight: 400;
+  color: #09090E;
+}
+
+main {
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0 0.8rem;
+}
+
+main, header {
+  max-width: 1110px;
+  margin: auto;
+}
+
+/* ----------------------------------- Styling navigation */
+header {
+  font-size: 1.2em;
+
+  padding: 1rem 0 1rem 0.8rem;
+}
+
+.nav-link {
+  font-weight: 800;
+  text-decoration: none;
+  color: #C9CED4;
+
+  padding: 0 0.8rem 0 0;
+}
+
+.nav-link:hover {
+  color: #F08A07;
+  text-decoration-line: underline;
+  text-decoration-color: #F08A07;
+}
+
+/* -------------------------------------- Styling headers */
+h1 {
+  font-weight: 800;
+  font-size: 8em;
+  line-height: 0.8em;
+}
+
+article h1 {
+  font-size: 3rem;
+  text-decoration-line: underline;
+  text-decoration-color: #F08A07;
+  text-decoration-thickness: 0.15em;
+
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+}
+
+article h2 {
+  font-weight: 800;
+
+  margin-top: 0.6em;
+}
+
+/* ------------------------------- Styling paragraph text */
+article p {
+  max-width: 750px;
+  line-height: 1.2em;
+
+  padding-bottom: 0.6rem;
+}
+
+i, em {
+  font-style: italic;
+}
+
+a {
+  color: #F08A07;
+}
+
+footer {
+  color: #C9CED4;
+  text-align: center;
+  font-size: 0.8em;
+
+  padding: 1.6rem;
+
+  background-color: #09090E;
+}
+
+/* --------------------------------------- Styling boxes */
+.text-box, .img-example {
+  padding: 0.4rem;
+  margin: 0.6rem;
+  display: inline-block;
+
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: 0.3em 0.3em #09090E;
+}
+
+.text-box {
+  display: block;
+  margin: 0.6rem auto;
+}
+
+/* ------------------------------------- Styling gallery */
+img { /* make images responsive */
+  max-width: 100%;
+  height: auto;
+}
+
+.img-example {
+  max-width: 20em;
+}
